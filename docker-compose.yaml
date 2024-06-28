@@ -1,0 +1,5 @@
+services:
+  cses-scraper:
+    image: docker.io/tilnoene/unballoon-cses-ranking-scraper:latest
+    ports:
+      - 9000:5000
