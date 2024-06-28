@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 And then run the api:
 ```py
-python ./app/index.py
+python app.py
 ```
 
 ### Docker
