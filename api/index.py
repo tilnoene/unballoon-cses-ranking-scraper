@@ -34,7 +34,7 @@ def login():
 @app.route('/', methods=['GET'])
 def get_users_info():
     try:
-        user_ids = request.args.get('user_ids').split(';')
+        user_ids = request.args.get('user_ids').split(',')
     except:
         user_ids = []
 
